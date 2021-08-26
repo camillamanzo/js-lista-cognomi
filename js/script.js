@@ -12,7 +12,7 @@ console.log (cognomi.sort())
 
 console.log(cognomi.indexOf(cognomeUtente)+1);
 
-for (i = 1; i < cognomi.length; i++){
+for (i = 0; i < cognomi.length; i++){
 
     console.log (cognomi.sort()[i])
 }
