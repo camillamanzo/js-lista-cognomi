@@ -10,7 +10,7 @@ cognomi.push (cognomeUtente)
 
 console.log (cognomi.sort())
 
-console.log(cognomi.indexOf(cognomeUtente));
+console.log(cognomi.indexOf(cognomeUtente)+1);
 
 for (i = 1; i < cognomi.length; i++){
 
