@@ -9,3 +9,8 @@ let cognomeUtente = prompt("inserisca il suo cognome.")
 cognomi.push (cognomeUtente)
 
 console.log (cognomi.sort())
+
+for (i = 1; i < cognomi.length; i++){
+    
+    console.log(cognomi.indexOf(cognomeUtente));
+}
